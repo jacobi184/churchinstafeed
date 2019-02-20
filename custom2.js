@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	
-	var userfeed = new instafeed({
+	var userFeed = new Instafeed({
 		get: 'user',
 		userId: '9268876548',
 		limit :12,
@@ -9,5 +9,5 @@ $( document ).ready(function() {
 		sortBy: 'most-recent',
 		template: '<div class="gallary"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid" /></a></div>',
 	});
-	userfeed.run();
+	userFeed.run();
 });
