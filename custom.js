@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	
-	var userfeed = new Instafeed({
+	var userfeed = new instafeed({
 		get: 'user',
 		userId: '9268876548',
 		limit :12,
