@@ -9,5 +9,5 @@ $( document ).ready(function() {
 		sortBy: 'most-recent',
 		template: '<div class="gallary"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid" /></a></div>',
 	});
-	userFeed.run();
+	userfeed.run();
 });
